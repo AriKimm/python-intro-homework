@@ -4,7 +4,9 @@ def dog_age():
     print(age)
 
 dog_age()
-#This causes a NameError since 'age' is ouside of the function.
+
+#print(age)
+#NameError: name 'age' is not defined
 
 #'return' to access the value
 def get_dog_age():
